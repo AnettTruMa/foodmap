@@ -1,12 +1,13 @@
 $(document).ready(function() {
-   setTimeout(function() {
-       $(".back-ground").fadeOut(1000);
-   },2000);
+    setTimeout(function() {
+        $(".splash-foodmap").fadeOut(1000);
+    },2000);
 
-   setTimeout(function() {
-       $(".main-foodmap").fadeIn(1000);
-   },2000);
+    setTimeout(function() {
+        $(".main-foodmap").fadeIn(1000);
+    },2000);
 });
+
 
 /*
 ES UN COMENTARIO
@@ -14,7 +15,7 @@ ES UN COMENTARIO
 //ES UN COMENTARIO
 
 //////////////////////
-var restaurantes2={
+/*var restaurantes2={
    "html_attributions" : [],
    "next_page_token" : "CqQCGwEAAHoh3ssL6V14XX3H2zE1_ujxeT2GjA5R78MqepfuPt8H7zvtxTwQiiFeAw5izMABL6z333v5jG-bbC25KjQ56qk7xbBkYfJg1YzagiHHRKgbNkjvF75nHagoeK98mcI-e2wsidjcap3xJNtgUsd0GNwmYpU3WWIyr5DDsLEjr_Wv2Ki1olEhLlZmnU9Q3nLuR54QGA9J2YMQgeFpEvkzHp_m2TMUhg7hrLCZdk0E8BnZufCBkMP01y2DwJV_LRbLoiV-ofr-2VTduyOykYL4DNdD1f6nw8QEjENgyPOrxWr77yeza-tl9NUEdsLoQtvp_ePfu6k5zyFxnpxzjKCeQzGgt9a3xvCfpNc_W3NdC3METogBKLt_nTqZURtzskbs7xIQXIfgR6ZmK9VGBEcUbK0XXhoUJa_VE1Pv5pp730AMDaWC0MmJuEc",
    "results" : [
